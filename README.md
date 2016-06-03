@@ -33,7 +33,7 @@ Sample output:
 ```bash
 cassio@darkstar:~/projects/docker$ docker ps
 CONTAINER ID        IMAGE               COMMAND                  CREATED             STATUS              PORTS                     NAMES
-c302811eb850        cassio_psql         "/usr/lib/postgresql/"   10 seconds ago      Up 9 seconds        0.0.0.0:32768->5432/tcp   pg-cassio
+1e9a0a673e3c        cassio_psql         "/usr/lib/postgresql/"   3 minutes ago       Up 3 minutes        0.0.0.0:32771->5432/tcp   naughty_pasteur
 ```
 
 To connect to the toy database run the following. Take notice to use the same port (`-p`) that you see when running the `docker ps` command.

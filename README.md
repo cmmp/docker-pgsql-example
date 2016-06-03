@@ -1,5 +1,5 @@
 # Example Docker machine
-This examples creates a Dockerfile for PostgreSQL 9.5 on Ubuntu 16.04 and imports a toy database.
+This tutorial presents a Dockerfile for building an image with PostgreSQL 9.5 on Ubuntu 16.04. It also imports a toy database and shows you how to connect to it.
 
 To install Docker on Ubuntu follow the instructions  [here](https://docs.docker.com/engine/installation/linux/ubuntulinux/).
 
